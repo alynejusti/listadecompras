@@ -8,7 +8,7 @@ https:
 
 ## Protótipo
 
-[https://www.figma.com](https://www.figma.com/file/bSmVdKGuEJwQ2dWNX1l1Vx/Untitled?type=design&node-id=0%3A1&mode=design&t=iwYrSXKBsrnNDUdA-1)
+https://www.figma.com/file/bSmVdKGuEJwQ2dWNX1l1Vx/Untitled?type=design&node-id=0%3A1&mode=design&t=iwYrSXKBsrnNDUdA-1
 
 ## Checklist
 
