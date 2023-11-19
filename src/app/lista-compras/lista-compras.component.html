@@ -1,0 +1,27 @@
+<div>
+  <h2>Itens da Lista</h2>
+  <ul>
+      <li *ngFor="let item of items; let i = index">
+          <span *ngIf="editedItem !== item; else editMode">{{ item.description }} - {{ item.quantity }} - {{ item.price }}</span>
+          <ng-template #editMode>
+              <input [(ngModel)]="editedItem.description" name="editedDescription" placeholder="Descrição">
+              <input [(ngModel)]="editedItem.quantity" name="editedQuantity" placeholder="Quantidade">
+              <input [(ngModel)]="editedItem.price" name="editedPrice" placeholder="Preço">
+              <button (click)="saveItem()">Salvar</button>
+              <button (click)="cancelEdit()">Cancelar</button>
+          </ng-template>
+          <button (click)="editItem(item)" *ngIf="!editedItem">Editar</button>
+          <button (click)="deleteItem(i)" *ngIf="!editedItem">Excluir</button>
+
+      </li>
+  </ul>
+  <div>
+      <h3>Adicionar Novo Item</h3>
+      <form>
+          <input [(ngModel)]="newItem.description" name="newDescription" placeholder="Descrição">
+          <input [(ngModel)]="newItem.quantity" name="newQuantity" placeholder="Quantidade">
+          <input [(ngModel)]="newItem.price" name="newPrice" placeholder="Preço">
+          <button type="button" (click)="addItem()">Adicionar</button>
+      </form>
+  </div>
+</div>
