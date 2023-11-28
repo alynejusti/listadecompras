@@ -1,0 +1,13 @@
+<h3>Cadastrar Novo Item</h3>
+<form (submit)="addItem()">
+  <label for="description">Descrição:</label>
+  <input [(ngModel)]="newItem.description" name="description" required>
+
+  <label for="quantity">Quantidade:</label>
+  <input type="number" [(ngModel)]="newItem.quantity" name="quantity" required>
+
+  <label for="price">Preço:</label>
+  <input type="number" [(ngModel)]="newItem.price" name="price" required>
+
+  <button type="submit">Adicionar</button>
+</form>
