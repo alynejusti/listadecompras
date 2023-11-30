@@ -1,0 +1,17 @@
+<div>
+    <h2>Itens da Lista</h2>
+    <button (click)="navigateToAddItem()">Adicionar Novo Item</button>
+
+    <ul>
+        <li *ngFor="let item of items; let i = index">
+          {{ item.description }} - {{ item.quantity }} - {{ item.price }}
+          <button (click)="confirmDeleteItem(i)">Excluir</button>
+          <div *ngIf="confirmDeleteIndex === i">
+            Tem certeza que deseja excluir este item?
+            <button (click)="deleteItem(i)">Sim</button>
+            <button (click)="cancelDelete()">Cancelar</button>
+          </div>
+        </li>
+      </ul>
+
+  </div>
