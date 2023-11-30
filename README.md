@@ -25,8 +25,8 @@ https://www.figma.com/file/bSmVdKGuEJwQ2dWNX1l1Vx/Untitled?type=design&node-id=0
 - [x] Validar os campos do formulário com expressões regulares (REGEX) e apresentar as mensagens de erro.
 - [ ] Implementar máscaras em campos de formulário, quando necessário, para melhorar a experiência do usuário ao inserir dados.
 - [x] Desabilitar o botão de envio (submit) enquanto o formulário estiver em um estado inválido.
-- [ ] Realizar requisições à API com tratamento adequado das respostas de sucesso e erro com Promises.
-- [ ] Realizar requisições à API com tratamento adequado das respostas de sucesso e erro com Observables.
+- [x] Realizar requisições à API com tratamento adequado das respostas de sucesso e erro com Promises.
+- [x] Realizar requisições à API com tratamento adequado das respostas de sucesso e erro com Observables.
 - [ ] Criar o cadastro completo de uma entidade, incluindo operações de criação, leitura, atualização e exclusão (CRUD) utilizando uma API, como o JSON Server.
 - [ ] Utilizar o armazenamento local (LocalStorage ou SessionStorage) para armazenar dados temporários, quando necessário.
 - [ ] Aplicar a diretiva estrutural ngFor para apresentar uma lista dinâmica de dados em seu aplicativo.
