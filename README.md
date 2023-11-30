@@ -22,9 +22,9 @@ https://www.figma.com/file/bSmVdKGuEJwQ2dWNX1l1Vx/Untitled?type=design&node-id=0
 - [x] Transferir dados, por meio de serviços, entre componentes que não estão diretamente relacionados.
 - [x] Mapear os componentes às rotas no módulo de rotas, criando uma estrutura de navegação eficiente.
 - [x] Permitir a navegação fluida entre as diferentes páginas do aplicativo por meio de links e botões de navegação.
-- [ ] Validar os campos do formulário com expressões regulares (REGEX) e apresentar as mensagens de erro.
+- [x] Validar os campos do formulário com expressões regulares (REGEX) e apresentar as mensagens de erro.
 - [ ] Implementar máscaras em campos de formulário, quando necessário, para melhorar a experiência do usuário ao inserir dados.
-- [ ] Desabilitar o botão de envio (submit) enquanto o formulário estiver em um estado inválido.
+- [x] Desabilitar o botão de envio (submit) enquanto o formulário estiver em um estado inválido.
 - [ ] Realizar requisições à API com tratamento adequado das respostas de sucesso e erro com Promises.
 - [ ] Realizar requisições à API com tratamento adequado das respostas de sucesso e erro com Observables.
 - [ ] Criar o cadastro completo de uma entidade, incluindo operações de criação, leitura, atualização e exclusão (CRUD) utilizando uma API, como o JSON Server.
