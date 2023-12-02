@@ -4,8 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --configuration production --base-href=/listadecompras/" ,
-    "ghpages": "angular-cli-ghpages --dir=dist/lista-de-compras",
+    "build": "ng build --configuration production --base-href=/lista-compras-app/" ,
+    "ghpages": "angular-cli-ghpages --dir=dist/lista-compras-app",
     "deploy": "npm run build & npm run ghpages",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
