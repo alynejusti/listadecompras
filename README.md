@@ -27,11 +27,11 @@ https://www.figma.com/file/bSmVdKGuEJwQ2dWNX1l1Vx/Untitled?type=design&node-id=0
 - [x] Desabilitar o botão de envio (submit) enquanto o formulário estiver em um estado inválido.
 - [x] Realizar requisições à API com tratamento adequado das respostas de sucesso e erro com Promises.
 - [x] Realizar requisições à API com tratamento adequado das respostas de sucesso e erro com Observables.
-- [ ] Criar o cadastro completo de uma entidade, incluindo operações de criação, leitura, atualização e exclusão (CRUD) utilizando uma API, como o JSON Server.
-- [ ] Utilizar o armazenamento local (LocalStorage ou SessionStorage) para armazenar dados temporários, quando necessário.
-- [ ] Aplicar a diretiva estrutural ngFor para apresentar uma lista dinâmica de dados em seu aplicativo.
-- [ ] Utilizar a diretiva ngIf para controlar a exibição ou ocultação de elementos com base em condições específicas.
-- [ ] Formatar a apresentação de dados com Pipes, de acordo com os requisitos do aplicativo.
+- [x] Criar o cadastro completo de uma entidade, incluindo operações de criação, leitura, atualização e exclusão (CRUD) utilizando uma API, como o JSON Server.
+- [x] Utilizar o armazenamento local (LocalStorage ou SessionStorage) para armazenar dados temporários, quando necessário.
+- [x] Aplicar a diretiva estrutural ngFor para apresentar uma lista dinâmica de dados em seu aplicativo.
+- [x] Utilizar a diretiva ngIf para controlar a exibição ou ocultação de elementos com base em condições específicas.
+- [x] Formatar a apresentação de dados com Pipes, de acordo com os requisitos do aplicativo.
 - [ ] Executar o processo de build da aplicação e realizar o deploy para tornar o aplicativo acessível online.
 
 ## Manual de execução
