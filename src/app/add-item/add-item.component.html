@@ -1,0 +1,18 @@
+<h3>{{ editMode ? 'Editar Item' : 'Cadastrar Novo Item' }}</h3>
+<form #addItemForm="ngForm" (submit)="addItem()">
+  <label for="description">Descrição:</label>
+  <input [(ngModel)]="newItem.description" name="description" required>
+  <div *ngIf="formErrors.description" class="error-message">{{ formErrors.description }}</div>
+
+  <label for="quantity">Quantidade:</label>
+  <input type="number" [(ngModel)]="newItem.quantity" name="quantity" required>
+  <div *ngIf="formErrors.quantity" class="error-message">{{ formErrors.quantity }}</div>
+
+  <label for="price">Preço:</label>
+  <input type="number" [(ngModel)]="newItem.price" name="price" required>
+  <div *ngIf="formErrors.price" class="error-message">{{ formErrors.price }}</div>
+
+  <button type="submit" [disabled]="!addItemForm.valid">
+    {{ editMode ? 'Salvar Alterações' : 'Adicionar' }}
+  </button>
+</form>
