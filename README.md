@@ -1,6 +1,5 @@
 ## Lista de Compras
-Este projeto tem como objetivo implementar progressivamente e de forma didática uma aplicação web. Será uma lista de compras online que permite aos usuários criar listas de itens que desejam comprar. Os usuários podem adicionar itens a lista, definir quantidades, marcar itens como comprados e excluir itens.
-O frontend da aplicação foi desenvolvido com Angular e o backend foi simulado pela implementação de uma API Fake, usando o JSON Server.
+Este projeto teve como objetivo implementar progressivamente e de forma didática uma aplicação web. Com isso foi criada uma lista de compras online que permite aos usuários criar listas de itens que desejam comprar. Os usuários podem adicionar itens a lista, definindo quantidade e preço, podem editar e excluir itens. O frontend da aplicação foi desenvolvido com Angular e o backend foi simulado pela implementação de uma API Fake, usando o JSON Server.
 
 ## Endereço de Deploy - GitHub Pages
 
