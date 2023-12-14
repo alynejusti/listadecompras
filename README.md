@@ -32,7 +32,7 @@ https://www.figma.com/file/bSmVdKGuEJwQ2dWNX1l1Vx/Untitled?type=design&node-id=0
 - [x] Aplicar a diretiva estrutural ngFor para apresentar uma lista dinâmica de dados em seu aplicativo.
 - [x] Utilizar a diretiva ngIf para controlar a exibição ou ocultação de elementos com base em condições específicas.
 - [x] Formatar a apresentação de dados com Pipes, de acordo com os requisitos do aplicativo.
-- [x] Executar o processo de build da aplicação e realizar o deploy para tornar o aplicativo acessível online. (alynelistadecompras.netlify.app)
+- [x] Executar o processo de build da aplicação e realizar o deploy para tornar o aplicativo acessível online. Link: alynelistadecompras.netlify.app
 
 ## Manual de execução
 
